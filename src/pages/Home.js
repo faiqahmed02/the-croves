@@ -30,7 +30,7 @@ function Home() {
             </div>
             <div>
               <Image
-                src={process.env.REACT_APP_URL + "/assets/video_poster.png"}
+                src={window.location.href + "/assets/video_poster.png"}
               />
             </div>
             <Row className="home-second-inner">
