@@ -1,0 +1,91 @@
+.banner {
+    background-image: url("../assets/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+/* button */
+.crove-btn {
+    background-image: linear-gradient(#AD8749, #DCBB75);
+    color: white;
+    width: 299px;
+    /* height: 30px; */
+    padding: 10px 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-btn{
+    background-image: linear-gradient(#AD8749, #DCBB75);
+    color: white;
+    /* height: 30px; */
+    padding: 10px 50px;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main */
+
+/* Seco SEction */
+.main{
+    background-image: linear-gradient(to right, #334607, #0f1500e1);
+    color: white;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.home-second {
+    background-image: linear-gradient(to right, #334607, #0f1500e1);
+    color: white;
+    padding: 35px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.home-second p {
+    font-size: 13px;
+    width: 50%;
+    margin: auto;
+}
+
+.home-second img {
+    padding-top: 30px;
+}
+
+.home-second-inner {
+    width: 904px;
+    max-width: 100%;
+    height: 235px;
+    max-height: 100%;
+    background-color: #445024;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    align-items: start;
+}
+.home-second-inner p {
+    width: 100%;
+}
+
+/* section Three */
+
+.section-three{
+    text-align: left;
+    padding: 75px 175px;
+}
+.section-three h3{
+width: 60%;
+font-size: 45px;
+}
